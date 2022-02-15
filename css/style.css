@@ -11,34 +11,110 @@ h1, h2, h3{
   
 }
 
+
+.botao{
+  
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #191970;
+  font-size: .9em;
+  border-radius: 3px;
+  
+}
+
+
 nav{
   
   
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Nunito, sans-serif;
-  color: #1c1c1c;
   background-color: #FFCB9E;
   
 }
 
-nav >a{
+nav  a{
   
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 800;
-  font-size: 32px;
-  font-family: Oxygen, sans-serif;
-  
+ text-decoration: none;
+ color: #FFFFFF;
+ font-weight: 800;
+ font-size: 20px;
+ font-family: Inter, serif;
+ 
+ 
 }
   
 nav ul{
   
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 800 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  
+}
+
+
+nav ul li {
+  
+    text-align: center;
+    width: 100%;
+    
+}
+
+nav ul li a {
+  
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+ header {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url("../img/fundo.jpeg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #000000;
+   text-align: center;
+   padding: 20px;
+   
+}
+
+header h1{
+  
   font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header p{
   
+  margin-bottom: 2em;
   
+}
+
+#historia {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px 20px 20px;
+  background-color: #FFCB9E
+  
+}
+
+#historia p {
+  
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    
 }
