@@ -42,6 +42,7 @@ nav  a{
     font-weight: 800;
       font-size: 20px;
         font-family: Inter, serif;
+       
  
  
 }
@@ -63,6 +64,7 @@ nav ul li {
     text-align: center;
       width: 100%;
       margin: 0;
+      padding: 0;
       
     
 }
