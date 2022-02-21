@@ -2,6 +2,7 @@ body {
    
    font-family: Nunito, sans-serif;
     color: #1c1c1c;
+    margin: 0 auto;
   
 }
 
@@ -30,7 +31,7 @@ nav{
   display: flex;
     flex-direction: column;
       align-items: center;
-        background-color: #FFCB9E;
+        background-color: #db7216;
   
 }
 
@@ -53,7 +54,7 @@ nav ul{
         list-style: none;
        padding: 0;
      width: 100%;
-  
+  margin: 0;
 }
 
 
@@ -61,17 +62,33 @@ nav ul li {
   
     text-align: center;
       width: 100%;
+      margin: 0;
+      
     
 }
 
 nav ul li a {
   
     display: inline-block;
-      padding: 10px 0;
+      padding: 40px 0; 
         width: 100%;
           text-decoration: none;
             color: #000000;
-    
+            font-family: 'montserrat',arial,sans-serif;
+            
+}
+
+.media-object{
+background-color: #FFFFFF;
+padding: 0 20px;
+}
+
+
+a:hover{
+  background-color: #8b542f;
+  border-radius: 3px;
+  color: #e9dede;
+  
 }
 
  header {
