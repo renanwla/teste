@@ -31,7 +31,8 @@ nav{
   display: flex;
     flex-direction: column;
       align-items: center;
-        background-color: #db7216;
+        background-color: rgb(246, 168, 0);
+       
   
 }
 
@@ -41,7 +42,7 @@ nav  a{
   color: #FFFFFF;
     font-weight: 800;
       font-size: 20px;
-        font-family: Inter, serif;
+    
        
  
  
@@ -53,7 +54,7 @@ nav ul{
     flex-direction: column;
       align-items: center;
         list-style: none;
-       padding: 0;
+       padding:10px;
      width: 100%;
   margin: 0;
 }
