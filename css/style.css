@@ -54,15 +54,41 @@ a{
   font-size: 28px;
   text-decoration: none;
   color: white;
+  padding: 20px;
+  
   
 }
 
 a:hover{
-  opacity: 0.8;
   background-color: saddlebrown;
   padding: 45px 0;
-
- 
- 
+  
 }
 
+@media (max-width: 720px){
+  
+  nav, ul{
+    flex-direction: column;
+    align-items: unset;
+    padding: 0 10px;
+  }
+  
+  ul{
+    text-align: center;
+  }
+  
+ a{
+   font-size: 20px;
+} 
+
+button{
+  display: flex;
+    
+}
+
+
+
+
+
+
+}
