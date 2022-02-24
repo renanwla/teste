@@ -29,13 +29,14 @@ nav{
   background-color: orange;
   padding-left: 38px;
   justify-content: space-between;
-  
+  width: 100%
 }
 
 ul{
   list-style: none;
   padding: 0;
   align-items: center;
+  
 }
 
 nav, ul{
@@ -45,7 +46,7 @@ nav, ul{
 }
 
 li{
-  padding: 0 20px;
+  padding: 0;
   
 }
 
@@ -54,15 +55,15 @@ a{
   font-size: 28px;
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 15px;
   
   
 }
 
 a:hover{
   background-color: saddlebrown;
-  padding: 45px 0;
-  
+  padding: 45px 15px;
+  width: 100%;
 }
 
 @media (max-width: 720px){
@@ -79,12 +80,12 @@ a:hover{
   
  a{
    font-size: 20px;
-} 
+  } 
 
 button{
   display: flex;
     
-}
+  }
 
 
 
