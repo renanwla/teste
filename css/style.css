@@ -29,7 +29,7 @@ nav{
   background-color: orange;
   padding-left: 38px;
   justify-content: space-between;
-  width: 100%
+ 
 }
 
 ul{
@@ -56,6 +56,7 @@ a{
   text-decoration: none;
   color: white;
   padding: 15px;
+  margin-right: 20px;
   
   
 }
@@ -63,7 +64,7 @@ a{
 a:hover{
   background-color: saddlebrown;
   padding: 45px 15px;
-  width: 100%;
+
 }
 
 @media (max-width: 720px){
@@ -71,7 +72,7 @@ a:hover{
   nav, ul{
     flex-direction: column;
     align-items: unset;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   
   ul{
@@ -81,6 +82,16 @@ a:hover{
  a{
    font-size: 20px;
   } 
+a:hover{
+  padding: 0 20px;
+  opacity: 0.8;
+  background-color: transparent;
+ 
+}
+
+li{
+  padding: 5px 0;
+}
 
 button{
   display: flex;
